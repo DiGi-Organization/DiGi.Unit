@@ -164,6 +164,11 @@ namespace DiGi.Unit.Enums
         [Description("Illuminance")] Illuminance,
 
         /// <summary>
+        /// Units related to solar radiation (irradiation) measurement - energy received per unit area over a period.
+        /// </summary>
+        [Description("Solar Radiation")] SolarRadiation,
+
+        /// <summary>
         /// Other unit categories not explicitly defined.
         /// </summary>
         [Description("Other")] Other,

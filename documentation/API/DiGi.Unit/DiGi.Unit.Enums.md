@@ -851,6 +851,29 @@ Pounds per square inch unit of pressure\.
 
 Standard atmosphere unit of pressure\.
 
+<a name='DiGi.Unit.Enums.SolarRadiationUnit'></a>
+
+## SolarRadiationUnit Enum
+
+Defines the supported units for solar radiation \(irradiation\) measurement \- the energy received per unit area over a period, e\.g\. the yearly irradiation in kWh/m²\.
+
+```csharp
+public enum SolarRadiationUnit
+```
+### Fields
+
+<a name='DiGi.Unit.Enums.SolarRadiationUnit.JoulePerSquareMeter'></a>
+
+`JoulePerSquareMeter` 0
+
+Joule per square meter \(SI derived unit\), the category base\.
+
+<a name='DiGi.Unit.Enums.SolarRadiationUnit.KilowattHourPerSquareMeter'></a>
+
+`KilowattHourPerSquareMeter` 1
+
+Kilowatt\-hour per square meter \- the irradiation in kWh/m²\.
+
 <a name='DiGi.Unit.Enums.SpeedUnit'></a>
 
 ## SpeedUnit Enum
@@ -1252,9 +1275,15 @@ Units related to luminous flux measurement\.
 
 Units related to illuminance measurement\.
 
+<a name='DiGi.Unit.Enums.UnitCategory.SolarRadiation'></a>
+
+`SolarRadiation` 31
+
+Units related to solar radiation \(irradiation\) measurement \- energy received per unit area over a period\.
+
 <a name='DiGi.Unit.Enums.UnitCategory.Other'></a>
 
-`Other` 31
+`Other` 32
 
 Other unit categories not explicitly defined\.
 
