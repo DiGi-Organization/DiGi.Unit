@@ -10,7 +10,7 @@ namespace DiGi.Unit.Parameter.Classes
     [AttributeUsage(AttributeTargets.Field, AllowMultiple = false)]
     public class UnitParameterProperties : ParameterProperties
     {
-        private readonly Unit.Classes.Unit? unit = null;
+        private readonly Unit.Classes.Unit? unit;
 
         /// <summary>
         /// Initializes a new instance of the <see cref="UnitParameterProperties"/> class with a unique identifier, name, and unit.
